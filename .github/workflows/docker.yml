@@ -24,4 +24,4 @@ jobs:
       with:
         context: ./MLProject
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/mlflow-training-kharis-syaban:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/ksyaban/workflow-ci-new:latest
